@@ -1,20 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MICHILOPOCHTLI | Survival Custom</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MICHILOPOCHTLI</title>
 
-    <meta name="description" content="Servidor Survival Custom de Minecraft Java y Bedrock. Vive una experiencia única en MICHILOPOCHTLI.">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
 
-    <link rel="icon" href="favicon.ico">
+body{
+    background:#0c0c0c;
+    color:white;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,.75);
+    backdrop-filter:blur(8px);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#d6b15c;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d6b15c;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#d6b15c;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:24px;
+    color:#d0d0d0;
+}
+
+.botones{
+    margin-top:45px;
+}
+
+.botones a{
+    display:inline-block;
+    margin:10px;
+    padding:16px 35px;
+    background:#d6b15c;
+    color:black;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.botones a:hover{
+    background:white;
+}
+</style>
+
 </head>
 
 <body>
 
-    <h1>MICHILOPOCHTLI</h1>
+<header>
 
-    <p>Bienvenido al sitio oficial.</p>
+<div class="logo">
+MICHILOPOCHTLI
+</div>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Características</a>
+<a href="#">Noticias</a>
+<a href="#">Tienda</a>
+<a href="#">Discord</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>MICHILOPOCHTLI</h1>
+
+<p>Survival Custom • Java + Bedrock</p>
+
+<div class="botones">
+<a href="https://discord.gg/">Discord</a>
+<a href="https://michilopochtlimc.tebex.io/">Tienda</a>
+</div>
+
+</section>
 
 </body>
 </html>
